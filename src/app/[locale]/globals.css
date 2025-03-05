@@ -1,0 +1,197 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --primary-50: #f5f7ff;
+  --primary-100: #ebf0ff;
+  --primary-200: #d6e0ff;
+  --primary-300: #b3c5ff;
+  --primary-400: #809fff;
+  --primary-500: #4d7aff;
+  --primary-600: #1a55ff;
+  --primary-700: #0041f5;
+  --primary-800: #0035cc;
+  --primary-900: #002db3;
+  --primary-950: #001a66;
+  
+  --accent-50: #fff7eb;
+  --accent-100: #ffecd1;
+  --accent-200: #ffd699;
+  --accent-300: #ffb84d;
+  --accent-400: #ff9900;
+  --accent-500: #ff7a00;
+  --accent-600: #cc6200;
+  --accent-700: #994a00;
+  --accent-800: #663200;
+  --accent-900: #331900;
+  --accent-950: #1a0d00;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+    to bottom,
+    rgb(var(--background-start-rgb)),
+    rgb(var(--background-end-rgb))
+  );
+}
+
+@layer base {
+  body {
+    @apply bg-primary-950 text-white;
+  }
+}
+
+/* Стили для DatePicker */
+.react-datepicker-wrapper {
+  width: 100%;
+}
+
+.react-datepicker__input-container input {
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  border: 1px solid #e5e7eb;
+}
+
+.react-datepicker__input-container input:focus {
+  outline: none;
+  border-color: #3b82f6;
+  ring: 2px;
+  ring-color: #93c5fd;
+}
+
+/* Анимации */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Кастомные классы */
+@layer components {
+  .gradient-text {
+    @apply bg-clip-text text-transparent bg-gradient-to-r from-primary-500 to-secondary-500;
+  }
+
+  .gradient-bg {
+    @apply bg-gradient-to-r from-primary-500 to-secondary-500;
+  }
+
+  .hover-shadow-lg {
+    @apply transition-shadow duration-300 hover:shadow-lg;
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 bg-gradient-to-r from-primary-500 to-secondary-500 text-white rounded-lg 
+           hover:from-primary-600 hover:to-secondary-600 transform hover:scale-105 
+           transition-all duration-200 shadow-md hover:shadow-lg;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 border-2 border-primary-500 text-primary-500 rounded-lg
+           hover:bg-primary-50 transform hover:scale-105
+           transition-all duration-200;
+  }
+
+  .card {
+    @apply bg-white rounded-2xl shadow-lg hover:shadow-xl transition-shadow p-6;
+  }
+
+  .form-input {
+    @apply mt-1 block w-full rounded-lg border-gray-300 shadow-sm 
+           focus:border-primary-500 focus:ring-primary-500;
+  }
+
+  .form-label {
+    @apply block text-sm font-medium text-gray-700;
+  }
+
+  .section-padding {
+    @apply py-12 sm:py-16 md:py-20 lg:py-24;
+  }
+
+  .container-padding {
+    @apply px-4 sm:px-6 lg:px-8;
+  }
+
+  .bg-gradient-shine {
+    background: linear-gradient(
+      110deg,
+      transparent 0%,
+      transparent 35%,
+      rgba(255, 255, 255, 0.1) 45%,
+      rgba(255, 255, 255, 0.2) 50%,
+      rgba(255, 255, 255, 0.1) 55%,
+      transparent 65%,
+      transparent 100%
+    );
+    background-size: 200% 100%;
+  }
+}
+
+@layer utilities {
+  .animate-shine {
+    animation: shine 3s infinite linear;
+  }
+
+  @keyframes shine {
+    0% {
+      background-position: 200% 0;
+    }
+    100% {
+      background-position: -200% 0;
+    }
+  }
+}
+
+/* Стили для DatePicker */
+.react-datepicker {
+  @apply bg-primary-900 border-primary-800 text-white !important;
+}
+
+.react-datepicker__header {
+  @apply bg-primary-800 border-primary-700 !important;
+}
+
+.react-datepicker__current-month,
+.react-datepicker__day-name {
+  @apply text-white !important;
+}
+
+.react-datepicker__day {
+  @apply text-primary-200 hover:bg-primary-800 !important;
+}
+
+.react-datepicker__day--selected,
+.react-datepicker__day--in-range {
+  @apply bg-accent-500 text-white hover:bg-accent-600 !important;
+}
+
+.react-datepicker__day--keyboard-selected {
+  @apply bg-accent-500/50 text-white !important;
+}
+
+.react-datepicker__day--disabled {
+  @apply text-primary-600 hover:bg-transparent !important;
+}
+
+.react-datepicker__navigation-icon::before {
+  @apply border-primary-200 !important;
+}
+
+.react-datepicker__triangle::before,
+.react-datepicker__triangle::after {
+  @apply border-primary-800 !important;
+} 

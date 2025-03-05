@@ -1,0 +1,235 @@
+{
+  "navigation": {
+    "home": "Home",
+    "catalog": "Catalog",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "title": "Premium Car Rental in Dubai",
+    "subtitle": "Your trusted partner in the world of luxury cars",
+    "cta": "Book Now"
+  },
+  "features": {
+    "title": "Why Choose Us",
+    "items": {
+      "service": {
+        "title": "Premium Service",
+        "description": "We provide the highest level of service to our clients"
+      },
+      "delivery": {
+        "title": "Free Delivery",
+        "description": "Free delivery and pickup anywhere in Dubai"
+      },
+      "booking": {
+        "title": "Easy Booking",
+        "description": "Simple and fast online booking process"
+      }
+    }
+  },
+  "catalog": {
+    "title": "Our Fleet",
+    "subtitle": "Choose your dream car from our premium collection",
+    "price": {
+      "perDay": "per day"
+    },
+    "viewDetails": "View Details"
+  },
+  "about": {
+    "hero": {
+      "title": "About Our Company",
+      "subtitle": "Leading luxury car rental service in Dubai since 2015"
+    },
+    "mission": {
+      "title": "Our Mission",
+      "values": [
+        "Premium Service",
+        "Customer Satisfaction",
+        "Exceptional Quality"
+      ],
+      "description": "We guarantee a personalized approach, transparent rental conditions, 24/7 support, and impeccable technical condition of all vehicles in our fleet."
+    },
+    "team": {
+      "title": "Our Team",
+      "subtitle": "Professionals who make your experience unforgettable",
+      "members": [
+        {
+          "name": "Alexander Smith",
+          "position": "CEO",
+          "description": "Over 15 years of experience in the premium automotive business",
+          "image": "/images/team/ceo.jpg"
+        },
+        {
+          "name": "Elena Johnson",
+          "position": "Customer Relations Manager",
+          "description": "Expert in creating personalized offers for clients",
+          "image": "/images/team/manager.jpg"
+        },
+        {
+          "name": "Michael Brown",
+          "position": "Technical Director",
+          "description": "Responsible for the perfect condition of our fleet",
+          "image": "/images/team/technical.jpg"
+        }
+      ]
+    },
+    "stats": {
+      "title": "RentDubai in Numbers",
+      "items": [
+        {
+          "number": "8+",
+          "label": "years of experience in Dubai"
+        },
+        {
+          "number": "50+",
+          "label": "cars in our fleet"
+        },
+        {
+          "number": "24/7",
+          "label": "customer support"
+        },
+        {
+          "number": "1000+",
+          "label": "satisfied clients"
+        }
+      ]
+    },
+    "advantages": {
+      "title": "Why Choose Us",
+      "items": [
+        {
+          "title": "Premium Fleet",
+          "description": "Only new premium cars from leading global manufacturers"
+        },
+        {
+          "title": "Flexible Terms",
+          "description": "Individual approach and special conditions for long-term rentals"
+        },
+        {
+          "title": "Full Insurance",
+          "description": "All cars are fully insured"
+        },
+        {
+          "title": "Confidentiality",
+          "description": "We guarantee complete confidentiality for our clients"
+        }
+      ]
+    },
+    "viewMore": "Learn More"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "We're here to help with any questions about car rental in Dubai",
+    "phone": {
+      "title": "Phone",
+      "value": "+971 50 123 4567",
+      "description": "Available 24/7 for your inquiries"
+    },
+    "email": {
+      "title": "Email",
+      "value": "info@prokatdubai.com",
+      "description": "We'll respond within 24 hours"
+    },
+    "address": {
+      "title": "Address",
+      "value": "Downtown Dubai, Sheikh Mohammed bin Rashid Blvd, Dubai, UAE",
+      "description": "Visit our office in the heart of Dubai"
+    },
+    "hours": {
+      "title": "Working Hours",
+      "description": "Our office working hours",
+      "schedule": [
+        {
+          "days": "Monday - Friday",
+          "hours": "9:00 - 20:00"
+        },
+        {
+          "days": "Saturday",
+          "hours": "10:00 - 18:00"
+        },
+        {
+          "days": "Sunday",
+          "hours": "12:00 - 16:00"
+        }
+      ]
+    },
+    "social": {
+      "title": "Follow Us",
+      "description": "Stay connected with us on social media"
+    },
+    "map": {
+      "title": "Our Location",
+      "description": "Find us in Dubai Marina"
+    },
+    "form": {
+      "title": "Send us a Message",
+      "description": "Fill out the form below and we'll get back to you shortly",
+      "name": "Your Name",
+      "email": "Your Email",
+      "message": "Your Message",
+      "namePlaceholder": "Enter your name",
+      "emailPlaceholder": "Enter your email",
+      "messagePlaceholder": "Type your message here...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Your message has been sent successfully! We'll contact you soon.",
+      "error": "An error occurred. Please try again."
+    }
+  },
+  "car": {
+    "specifications": "Specifications",
+    "specs": {
+      "engine": "Engine",
+      "power": "Power",
+      "acceleration": "Acceleration 0-100 km/h",
+      "transmission": "Transmission",
+      "seats": "Seats"
+    },
+    "booking": {
+      "title": "Book This Car",
+      "perDay": "per day",
+      "selectDates": "Select Dates",
+      "startDate": "Start Date",
+      "endDate": "End Date",
+      "totalPrice": "Total Price",
+      "days": "days",
+      "submit": "Book Now",
+      "success": {
+        "title": "Booking Confirmed!",
+        "message": "We'll contact you shortly with further details"
+      }
+    },
+    "benefits": {
+      "insurance": {
+        "title": "Full Insurance",
+        "description": "All our cars are fully insured for your peace of mind"
+      },
+      "delivery": {
+        "title": "24/7 Delivery",
+        "description": "We deliver cars anywhere in Dubai at any time"
+      },
+      "payment": {
+        "title": "Easy Payment",
+        "description": "We accept all major credit cards and cash payments"
+      }
+    },
+    "howToBook": {
+      "title": "How to Book",
+      "steps": {
+        "dates": "Select your rental dates",
+        "contact": "Provide your contact details",
+        "payment": "Choose payment method",
+        "confirmation": "Receive booking confirmation"
+      }
+    }
+  },
+  "booking": {
+    "title": "Book a Car",
+    "selectDates": "Select Dates",
+    "startDate": "Start Date",
+    "endDate": "End Date",
+    "selectCar": "Select Car",
+    "calculate": "Calculate Price",
+    "days": "days"
+  }
+} 
